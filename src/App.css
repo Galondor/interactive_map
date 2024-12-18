@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.row {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container {
+  padding: 96px 0;
+}
+
+.map {
+  width: 100%;
+}
+
+.zoomable_map {
+  width: 100%;
+  border: 10px solid #242424;
+  cursor: pointer;
+}
