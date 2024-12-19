@@ -1,3 +1,8 @@
+
+* {
+  background-color: #242424;
+}
+
 .App {
   text-align: center;
 }
@@ -14,12 +19,94 @@
   padding: 96px 0;
 }
 
-.map {
+.map_window {
+  border: 10px solid #bbbbbb;
+  border-radius: 14px;
   width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
 }
 
-.zoomable_map {
-  width: 100%;
-  border: 10px solid #242424;
+.btn {
+  background-color: #bcbcbc;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 14px;
   cursor: pointer;
+  width: 10%;
+  transition: all 0.3s ease 0s;
+}
+
+.btn:hover {
+  background-color: #425e63;
+}
+
+.map_wrapper {
+  position: relative;
+}
+
+.marker_wrapper {
+  position: absolute;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.map {
+  width: 100%;
+  height: auto;
+  z-index: 0;
+  position: relative;
+}
+
+.marker {
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  position: absolute;
+  z-index: 1;
+  transition: all 0.3s ease 0s;
+}
+
+.marker:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.marker_desc {
+  z-index: 2;
+  background-color: #fff;
+  border: 2px solid #242424;
+  border-radius: 14px;
+  padding: 8px;
+  margin-top: 28px;
+  margin-left: 10px;
+}
+
+.marker_desc h1 {
+  font-size: 16px;
+  background-color: transparent;
+  margin: 0;
+}
+
+.marker_desc p {
+  font-size: 12px;
+  background-color: transparent;
+  margin: 0;
+  padding: 8px;
+}
+
+/* Responsive */
+
+@media (max-width: 480px) {
+  .marker {
+    width: 16px;
+    height: 16px;
+  }
 }
