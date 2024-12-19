@@ -101,6 +101,7 @@ const Map = () => {
                   </label>
                 </li>
               </ul>
+              <h4>Each Grid = One Travel Day</h4>
               <div className='divider'></div>
               <div className='controls'>
                   <button className='btn' onClick={toggleMarkers}>
@@ -161,15 +162,6 @@ const Map = () => {
                            icon={city}
                         />
                         <Marker 
-                           top='72%'
-                           left='58%'
-                           locName="Observatory #089"
-                           locDesc='Description'
-                           locGov='The Eldryn Empire'
-                           locPop='Population: ~20'
-                           icon={city}
-                        />
-                        <Marker 
                            top='69%'
                            left='25%'
                            locName="Bastion"
@@ -227,18 +219,59 @@ const Map = () => {
                   )}
                   {/* Town Markers */}
                   {showTown && (
-                     <Marker 
-                        top='47%'
-                        left='52%'
-                        locName='Emerald Watch'
-                        locDesc='Description'
-                        locGov='The Mirage Empire'
-                        locPop='Population: ~100'
-                        icon={town}
-                     />
+                     <>
+                        <Marker 
+                           top='47%'
+                           left='52%'
+                           locName='Emerald Watch'
+                           locDesc='Description'
+                           locGov='The Mirage Empire'
+                           locPop='Population: ~100'
+                           icon={town}
+                        />
+                        <Marker 
+                           top='43%'
+                           left='49%'
+                           locName='Moltenhold'
+                           locDesc='Description'
+                           locGov='The Brotherhood of The Forge'
+                           locPop='Population: ~350'
+                           icon={town}
+                        />
+                     </>
                   )}
                   {/* Village Markers */}
-                  {showVillage && null}
+                  {showVillage && (
+                     <>
+                        <Marker 
+                           top='44%'
+                           left='62.5%'
+                           locName='Droughtstone'
+                           locDesc='Description'
+                           locGov='Unaffiliated'
+                           locPop='Population: ~12'
+                           icon={village}
+                        />
+                        <Marker 
+                           top='36%'
+                           left='61.5%'
+                           locName='Dunewatch'
+                           locDesc='Description'
+                           locGov='The Silver Ravens'
+                           locPop='Population: ~63'
+                           icon={village}
+                        />
+                        <Marker 
+                           top='72%'
+                           left='58%'
+                           locName="Observatory #089"
+                           locDesc='Description'
+                           locGov='The Eldryn Empire'
+                           locPop='Population: ~20'
+                           icon={village}
+                        />
+                     </>
+                  )}
                   {/* Dungeon Markers */}
                   {showDungeon && (
                      <>
@@ -324,9 +357,87 @@ const Map = () => {
                      </>
                   )}
                   {/* Mystery Markers */}
-                  {showMystery && null}
+                  {showMystery && (
+                     <>
+                        <Marker 
+                           top='27%'
+                           left='46%'
+                           locName="???"
+                           locDesc='N̴̵̶̶̸̢͚̯̞̬̗̤̭̹̗̟͈ͬͣ̐̆̊͗̔̀̾ͪ͐ͭͯ̊̌͘͞Ų̮̣͓ͥ̓͡_̠ͭͣL̝͚̩̥͎̩̞̣͔̏ͦͮ̏̃͠L̡̪̘͈̪͙͓̋̿̃ͫ̌̽̂ͦ̿͒̌̚͞'
+                           locGov='リ╎ᓵᒷ  ℸ ̣ ∷||  ꖎ𝙹ᓭᒷ∷!'
+                           locPop='ꖎ𝙹∷ᒷᒲ  ╎!¡ᓭ⚍ᒲ  ↸𝙹ꖎᔑ∷'
+                           icon={mystery}
+                        />  
+                        <Marker 
+                           top='52%'
+                           left='8%'
+                           locName="???"
+                           locDesc='N̴̵̶̶̸̢͚̯̞̬̗̤̭̹̗̟͈ͬͣ̐̆̊͗̔̀̾ͪ͐ͭͯ̊̌͘͞Ų̮̣͓ͥ̓͡_̠ͭͣL̝͚̩̥͎̩̞̣͔̏ͦͮ̏̃͠L̡̪̘͈̪͙͓̋̿̃ͫ̌̽̂ͦ̿͒̌̚͞'
+                           locGov='リ╎ᓵᒷ  ℸ ̣ ∷||  ꖎ𝙹ᓭᒷ∷!'
+                           locPop='ꖎ𝙹∷ᒷᒲ  ╎!¡ᓭ⚍ᒲ  ↸𝙹ꖎᔑ∷'
+                           icon={mystery}
+                        />
+                        <Marker 
+                           top='14%'
+                           left='6%'
+                           locName="???"
+                           locDesc='N̴̵̶̶̸̢͚̯̞̬̗̤̭̹̗̟͈ͬͣ̐̆̊͗̔̀̾ͪ͐ͭͯ̊̌͘͞Ų̮̣͓ͥ̓͡_̠ͭͣL̝͚̩̥͎̩̞̣͔̏ͦͮ̏̃͠L̡̪̘͈̪͙͓̋̿̃ͫ̌̽̂ͦ̿͒̌̚͞'
+                           locGov='リ╎ᓵᒷ  ℸ ̣ ∷||  ꖎ𝙹ᓭᒷ∷!'
+                           locPop='ꖎ𝙹∷ᒷᒲ  ╎!¡ᓭ⚍ᒲ  ↸𝙹ꖎᔑ∷'
+                           icon={mystery}
+                        />
+                        <Marker 
+                           top='54%'
+                           left='90%'
+                           locName="???"
+                           locDesc='N̴̵̶̶̸̢͚̯̞̬̗̤̭̹̗̟͈ͬͣ̐̆̊͗̔̀̾ͪ͐ͭͯ̊̌͘͞Ų̮̣͓ͥ̓͡_̠ͭͣL̝͚̩̥͎̩̞̣͔̏ͦͮ̏̃͠L̡̪̘͈̪͙͓̋̿̃ͫ̌̽̂ͦ̿͒̌̚͞'
+                           locGov='リ╎ᓵᒷ  ℸ ̣ ∷||  ꖎ𝙹ᓭᒷ∷!'
+                           locPop='ꖎ𝙹∷ᒷᒲ  ╎!¡ᓭ⚍ᒲ  ↸𝙹ꖎᔑ∷'
+                           icon={mystery}
+                        />
+                        <Marker 
+                           top='70.5%'
+                           left='90.5%'
+                           locName="???"
+                           locDesc='N̴̵̶̶̸̢͚̯̞̬̗̤̭̹̗̟͈ͬͣ̐̆̊͗̔̀̾ͪ͐ͭͯ̊̌͘͞Ų̮̣͓ͥ̓͡_̠ͭͣL̝͚̩̥͎̩̞̣͔̏ͦͮ̏̃͠L̡̪̘͈̪͙͓̋̿̃ͫ̌̽̂ͦ̿͒̌̚͞'
+                           locGov='リ╎ᓵᒷ  ℸ ̣ ∷||  ꖎ𝙹ᓭᒷ∷!'
+                           locPop='ꖎ𝙹∷ᒷᒲ  ╎!¡ᓭ⚍ᒲ  ↸𝙹ꖎᔑ∷'
+                           icon={mystery}
+                        />
+                        <Marker 
+                           top='5.5%'
+                           left='90.5%'
+                           locName="???"
+                           locDesc='N̴̵̶̶̸̢͚̯̞̬̗̤̭̹̗̟͈ͬͣ̐̆̊͗̔̀̾ͪ͐ͭͯ̊̌͘͞Ų̮̣͓ͥ̓͡_̠ͭͣL̝͚̩̥͎̩̞̣͔̏ͦͮ̏̃͠L̡̪̘͈̪͙͓̋̿̃ͫ̌̽̂ͦ̿͒̌̚͞'
+                           locGov='リ╎ᓵᒷ  ℸ ̣ ∷||  ꖎ𝙹ᓭᒷ∷!'
+                           locPop='ꖎ𝙹∷ᒷᒲ  ╎!¡ᓭ⚍ᒲ  ↸𝙹ꖎᔑ∷'
+                           icon={mystery}
+                        />
+                        <Marker 
+                           top='35%'
+                           left='70%'
+                           locName="???"
+                           locDesc='N̴̵̶̶̸̢͚̯̞̬̗̤̭̹̗̟͈ͬͣ̐̆̊͗̔̀̾ͪ͐ͭͯ̊̌͘͞Ų̮̣͓ͥ̓͡_̠ͭͣL̝͚̩̥͎̩̞̣͔̏ͦͮ̏̃͠L̡̪̘͈̪͙͓̋̿̃ͫ̌̽̂ͦ̿͒̌̚͞'
+                           locGov='リ╎ᓵᒷ  ℸ ̣ ∷||  ꖎ𝙹ᓭᒷ∷!'
+                           locPop='ꖎ𝙹∷ᒷᒲ  ╎!¡ᓭ⚍ᒲ  ↸𝙹ꖎᔑ∷'
+                           icon={mystery}
+                        />
+                     </>
+                  )}
                   {/* Point of Interest Markers */}
-                  {showPoi && null}
+                  {showPoi && (
+                     <>
+                        <Marker 
+                           top='52%'
+                           left='60%'
+                           locName="Sandbreak"
+                           locDesc='Description'
+                           locGov='The Oasis of the Sands'
+                           locPop='Population ~70 - ~250'
+                           icon={poi}
+                        />  
+                     </>
+                  )}
                   {/* Pins */}
                   {showPin && null}
                </>
