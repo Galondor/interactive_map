@@ -92,7 +92,23 @@
 .marker_desc h1 {
   font-size: 16px;
   background-color: transparent;
+  padding: 6px 8px;
   margin: 0;
+  border-bottom: 2px solid #242424;
+}
+
+.marker_desc h2 {
+  font-size: 14px;
+  background-color: transparent;
+  margin: 0;
+  padding: 4px 0px 8px 0px;
+}
+
+.marker_desc h3 {
+  font-size: 14px;
+  background-color: transparent;
+  margin: 0;
+  padding: 4px 0px 8px 0px;
 }
 
 .marker_desc p {

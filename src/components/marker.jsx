@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import pin from '../location-dot-solid.svg';
 
-const Marker = ({ top, left, locName, locDesc }) => {
+const Marker = ({ top, left, locName, locDesc, locGov, locPop }) => {
     const [showTextBox, setShowTextBox] = useState(false);
     const [isZoomedIn, setIsZoomedIn] = useState(false);
 
@@ -33,6 +33,8 @@ const Marker = ({ top, left, locName, locDesc }) => {
                 {showTextBox && (
                     <div className="marker_desc" style={{ top: top, left: left, position: 'absolute' }}>
                         <h1>{locName}</h1>
+                        <h2>{locGov}</h2>
+                        <h3>{locPop}</h3>
                         <p>{locDesc}</p>
                     </div>
                 )}
