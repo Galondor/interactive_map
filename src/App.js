@@ -1,5 +1,4 @@
 import './App.css';
-import 'leaflet/dist/leaflet.css';
 import Map from './components/map';
 
 
@@ -8,7 +7,7 @@ function App() {
     <div className="App">
       <div className="row">
         <div className="container">
-        <Map />
+          <Map />
         </div>
       </div>
     </div>

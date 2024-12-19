@@ -17,6 +17,8 @@
 
 .container {
   padding: 96px 0;
+  display: flex;
+  flex-direction: row;
 }
 
 .map_window {
@@ -36,8 +38,8 @@
   border: none;
   border-radius: 14px;
   cursor: pointer;
-  width: 10%;
   transition: all 0.3s ease 0s;
+  text-wrap: nowrap;
 }
 
 .btn:hover {
@@ -81,7 +83,7 @@
 
 .marker_desc {
   z-index: 2;
-  background-color: #fff;
+  background-color: #e9e9e9;
   border: 2px solid #242424;
   border-radius: 14px;
   padding: 8px;
@@ -118,11 +120,82 @@
   padding: 8px;
 }
 
+.sidebar {
+  color: #bcbcbc;
+  display: flex;
+  flex-direction: column;
+}
+
+.legend {
+  margin: 4px;
+  background-color: #425e63;
+  border: 2px solid #bcbcbc;
+  border-radius: 14px;
+  padding: 8px;
+}
+
+.legend_item {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4px;
+  background-color: transparent;
+}
+
+.legend_item_name {
+  font-size: 14px;
+  margin-left: 8px;
+  color: #bcbcbc;
+  background-color: transparent;
+}
+
+.legend_item_label {
+  font-size: 14px;
+  margin-right: 8px;
+  color: #bcbcbc;
+  background-color: transparent;
+  transition: all 0.3s ease 0s;
+}
+
+.legend_item_label:hover {
+  transform: scale(1.2);
+}
+
+.legend_item_icon {
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.legend_item_icon:hover {
+  transform: scale(1.2);
+}
+
+.legend_checkbox {
+  border: 2px solid #242424;
+  border-radius: 12px;
+  display: none;
+}
+
+.divider {
+  border: 2px solid #bcbcbc;
+  margin: 10px;
+}
+
 /* Responsive */
 
 @media (max-width: 480px) {
   .marker {
     width: 16px;
     height: 16px;
+  }
+
+  .container {
+    padding: 48px 0;
+    display: flex;
+    flex-direction: column;
   }
 }

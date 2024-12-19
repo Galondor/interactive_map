@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import pin from '../location-dot-solid.svg';
 
-const Marker = ({ top, left, locName, locDesc, locGov, locPop }) => {
+const Marker = ({ top, left, locName, locDesc, locGov, locPop, icon }) => {
     const [showTextBox, setShowTextBox] = useState(false);
     const [isZoomedIn, setIsZoomedIn] = useState(false);
 
@@ -29,7 +28,7 @@ const Marker = ({ top, left, locName, locDesc, locGov, locPop }) => {
     return (
         <>
             <figure className='marker_wrapper'>
-                <img className="marker" src={pin} onClick={handleClick} style={{ top: top, left: left }} />
+                <img className="marker" src={icon} onClick={handleClick} style={{ top: top, left: left }} />
                 {showTextBox && (
                     <div className="marker_desc" style={{ top: top, left: left, position: 'absolute' }}>
                         <h1>{locName}</h1>
