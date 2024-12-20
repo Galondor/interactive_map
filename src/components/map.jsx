@@ -186,7 +186,16 @@ const Map = () => {
                            top='69%'
                            left='25%'
                            locName="Bastion"
-                           locDesc="Description"
+                           locDesc="The City of Bastion is a fortress city, built to withstand any siege.
+                           Surrounding the city walls are the six Spires, each looming over the city. Near the center of the city is the
+                           Grand Spire, home to the Iron Keep where the King of Ironspire resides. Within the city walls, a strict order prevails.
+                           The streets are patrolled by the Iron Guard, and the air is thick with a sense of obedience and conformity.
+                           Magic is rigorously outlawed, even the most minor of spells can spell doom for the caster. The weekly hangings
+                           serve as a stark reminder of the consequences of practicing magic or defying the King's Law.
+                           Despite it's oppresive atmosphere, Bastion is prosperous thanks to the sprawling mines beneath the city,
+                           paired with the city's great forges. The city is armed to the teeth, and makes a shiny zennit 
+                           exporting weapons and metals. Recently the miners have delved deeper and uncovered a new mineral, it's yet to be
+                           identified but it's properties are unlike anything seen before."
                            locGov='The Kingdom of Ironspire'
                            locPop='Population: ~60,000'
                            icon={city}
@@ -195,7 +204,12 @@ const Map = () => {
                            top='88%'
                            left='25.5%'
                            locName="Polaris Lumina"
-                           locDesc="Description"
+                           locDesc="Established on the coast of [REDACTED], Polaris Lumina was founded as a sanctuary city
+                           for the Luminari. It stands as a beacon of hope and acceptance. The city's architecture reflects its
+                           connection to it's snowy surroudings and magic. Buildings are crafted form pale wood and ice, their designs
+                           incorporating flowing lines and intricate carvings that evoke the beauty of the surrounding landscape. At the heart
+                           of the city is a bustling marketplace, where fishermen and traders exchange goods and stories. Though things
+                           are better now, the city still has scars from centuries of persecution."
                            locGov='The Luminari Union'
                            locPop='Population: ~6,300'
                            icon={city}
@@ -204,7 +218,14 @@ const Map = () => {
                            top='17%'
                            left='17.5%'
                            locName="Dragon's Crucible"
-                           locDesc="Description"
+                           locDesc="Mounted upon the cliffs of Dragon's Spine, the city of Dragon's Crucible is a fierce and savage place.
+                           At the heart of the city is the Colosseum of Fire and Blood, where the annual Crucible is held, in addition
+                           to other gladiatorial events. For a city with such a brutal reputation, no weapons are allowed within the city.
+                           The streets of Dragon's Crucible are alive with vibrant energy. Warriors from each clan proudly display their colors
+                           and hone their skills in public squares specifically designed for sparring. The clans are almost always at odds with
+                           each other, but they are all united by the Dragon King, the ruler of the city. The king is the champion of the annual
+                           Crucible, and his word is Law. His clan also holds the most power and influence during his time as King.
+                           Thanks to this ever changing power dynamic, the city is always on the brink of disaster."
                            locGov='The Twelve Dragonlords'
                            locPop='Population: ~20,000'
                            icon={city}
@@ -213,7 +234,12 @@ const Map = () => {
                            top='34%'
                            left='40.5%'
                            locName="Siren's Call"
-                           locDesc="Description"
+                           locDesc="A costal city built in the sands of the [REDACTED] Desert. Siren's Call is a bustling port city that thrives
+                           on the edge of two worlds. It's towering walls, bleached white by the sun. The city houses the largest market in Iferon,
+                           the Grand Bazaar. A Sprawling market where exotic goods form distant lands are traded alongside the city's own.
+                           Overlooking the bustling harbor stands the Citadel of the Sea, home to the Council of the Sea. The council governs the waters
+                           of Iferon. The council ensures fair trading practices and the saftey of the seas. Most merchants and sailors have set foot
+                           in Siren's Call at least once, and enjoyed the city's hospitality. Including a famous tavern, The Drunken Kraken."
                            locGov='The Council of the Sea'
                            locPop='Population: ~6,000'
                            icon={city}
@@ -222,7 +248,13 @@ const Map = () => {
                            top='22%'
                            left='77.7%'
                            locName='Redcliff'
-                           locDesc="Description"
+                           locDesc="Perched on the edge of [REDACTED], Redcliff marks the last bastion of civilization before [REDACTED].
+                           The city is a fortess second only to Bastion, and is the HQ of the Alliance of Guardians. The city was established
+                           as a base both close enough to the frontlines of [REDACTED] and far enough away to be safe. As a strategic failsafe,
+                           the alliance has planned to destroy the [REDACTED] Bridge, should the need arise and hopefuly buy time for the realm.
+                           The surrounding mountains provide ample resources for the city's forges and economy. The mountains also provide enough
+                           protection from the north. The heart of Redcliff is the Great Hall, where the leaders of the Alliance meet and plan
+                           the war effort."
                            locGov='The Alliance of Guardians'
                            locPop='Population: ~22,000'
                            icon={city}
@@ -231,7 +263,13 @@ const Map = () => {
                            top='17%'
                            left='83%'
                            locName='Stonehaven'
-                           locDesc="Description"
+                           locDesc="Forged from steel and blood, Stonehaven is a military city built with the sole purpose of defending Iferon from
+                           [REDACTED]. The walls are specially designed to with magic to withstand the onslaught of the [REDACTED] hordes.
+                           The city is home to the Guardians, highly trained soliders clad in furs and steel. These soliders are constantly alert
+                           and ready for battle. These soliders are battle hardend from the horros they've faced. Despite the constant threat,
+                           a strong sense of camaraderie binds the city together. A family forged in the fires of war. Thank to its strategic location,
+                           Stonehaven has access to significant resources and is a key part of the war effort. Stonehaven is a city that lives and breathes
+                           defiance. A symbol of hope against the enroaching darkness."
                            locGov='The Alliance of Guardians'
                            locPop='Population: ~16,500'
                            icon={city}

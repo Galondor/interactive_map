@@ -89,6 +89,7 @@
   padding: 8px;
   margin-top: 28px;
   margin-left: 10px;
+  width: 35%;
 }
 
 .marker_desc h1 {
@@ -196,6 +197,6 @@
   .container {
     padding: 48px 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 }
