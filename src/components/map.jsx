@@ -270,6 +270,15 @@ const Map = () => {
                            locPop='Population: ~20'
                            icon={village}
                         />
+                        {/* <Marker 
+                           top='49%'
+                           left='22%'
+                           locName="Violet's Reach"
+                           locDesc='Description'
+                           locGov='Unafiiliated'
+                           locPop='Population: Unknown'
+                           icon={village}
+                        /> */}
                      </>
                   )}
                   {/* Dungeon Markers */}
