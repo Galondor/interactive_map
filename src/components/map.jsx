@@ -120,7 +120,11 @@ const Map = () => {
                            top='75%'
                            left='75%'
                            locName="Khar'goth"
-                           locDesc='Description'
+                           locDesc="The Capital city of [REDACTED], home to thousands of spawn.
+                           Khar'goth is a grim and imposing city, built from the bones of the fallen and the blood of the weak.
+                           It's architecture is twisted and macabre reflection of the Spawn's dark and twisted nature. The Great Arena, central
+                           to the city, is where daily gladiatorial combat takes place, the spawn favor strength and combat prowess above all else.
+                           This philosophy has been spearheaded by the Skullcleaver Clan, the current ruling clan of Khar and warden of [REDACTED]."
                            locGov="The Spawn's Replublic of Khar"
                            locPop='Population: ~12,000'
                            icon={city}
@@ -129,7 +133,10 @@ const Map = () => {
                            top='44%'
                            left='76.5%'
                            locName="Castle Deliverance"
-                           locDesc='Description'
+                           locDesc="The Castle-City in the sky. Home to the ancient Holy Order and some of the wealthiest families in all of Iferon.
+                           It's architecture is a mix of gothic and grand celestial design, with soaring spires as well as golden domes and arches.
+                           One of the most notable and oldest buildings being the Holy Sancutum, home to the Holy Order. Though now the city has forsaken it's
+                           religous roots and has become a haven for the rich and powerful. Few practice the old ways, and the Order's influence wanes with each passing year."
                            locGov='The Holy Order'
                            locPop='Population: ~5,000'
                            icon={city}
@@ -138,7 +145,11 @@ const Map = () => {
                            top='56%'
                            left='65%'
                            locName="Horizon's Edge"
-                           locDesc='Description'
+                           locDesc="A Beacon of civilization and the capital of Ashaka. Horizon's Edge is a testament to human ingenuity and resilience.
+                           Though most of the city's success can be attributed to the massive habor that connects it to the rest of the world.
+                           AS a result, Central Market has become a bustling hub of trade and commerce. The city's true gem however, is the College of Archaeology and History.
+                           The College has produced some of the greatest archeologists and historians in the world. The College has also unearthed countless ancient relics
+                           and artifacts, which will soon populate the newly approved Museum of Antiquities."
                            locGov='The Mirage Empire'
                            locPop='Population: ~8,000'
                            icon={city}
@@ -147,7 +158,12 @@ const Map = () => {
                            top='63%'
                            left='47%'
                            locName="Eldoria"
-                           locDesc='Description'
+                           locDesc="The oldest city in the known world, Eldoria is a city of magic and tranquility. Most nations have an embassy in Eldoria due to it's
+                           strict neutrality and central location. The city was orignaly home to the first men and elves, and has since become a melting pot of cultures.
+                           The Silver Spire, the tallest building in all of Iferon, is home to the Eldryn Academy of The Arcane Art. The most prestigious school of magic in the world.
+                           Ths city is the jewel of the Eldryn Empire, and the Royal Family resides in the White Palace. Unlike most of nations in Iferon, Eldoria freely allows the practice
+                           of magic. Over the centuries, the city has grown and expanded, but not every expansion proved successful. The ruins of an entire city district still
+                           remains as a reminder of mankind's hubris. However all of Eldoria nearly takes up the entire continent of [REDACTED]."
                            locGov='The Eldryn Empire'
                            locPop='Population: ~45,000'
                            icon={city}
@@ -156,7 +172,12 @@ const Map = () => {
                            top='69%'
                            left='53.5%'
                            locName="Hearthwood"
-                           locDesc='Description'
+                           locDesc="Once a mere city district of Eldoria, Hearthwood has since grown into a major city in it's own right. Though not without challenges.
+                           Hearthwood's political landscape balances on a knife's edge, with the Royal Family of Eldoria and the Hearthwood Council constantly at odds.
+                           The city is mostly comprised of the working class, and the city's economy is based on the export of Wheat and Goldleaf, a rare herb that only grows in Hearthwood soil.
+                           These exports are so plentiful that the city feeds the entire Eldryn Empire and still exports to other nations. As a result the farmers of Hearthwood are some of the 
+                           best paid and respected in all of Iferon. Some of her residents have started to call for independence from Eldoria, but the council doesn't believe the city is ready
+                           to stand on it's own without the Empire's protection and influence."
                            locGov='The Eldryn Empire'
                            locPop='Population: ~18,500'
                            icon={city}
@@ -165,7 +186,7 @@ const Map = () => {
                            top='69%'
                            left='25%'
                            locName="Bastion"
-                           locDesc='Description'
+                           locDesc="Description"
                            locGov='The Kingdom of Ironspire'
                            locPop='Population: ~60,000'
                            icon={city}
@@ -174,7 +195,7 @@ const Map = () => {
                            top='88%'
                            left='25.5%'
                            locName="Polaris Lumina"
-                           locDesc='Description'
+                           locDesc="Description"
                            locGov='The Luminari Union'
                            locPop='Population: ~6,300'
                            icon={city}
@@ -183,7 +204,7 @@ const Map = () => {
                            top='17%'
                            left='17.5%'
                            locName="Dragon's Crucible"
-                           locDesc='Description'
+                           locDesc="Description"
                            locGov='The Twelve Dragonlords'
                            locPop='Population: ~20,000'
                            icon={city}
@@ -192,7 +213,7 @@ const Map = () => {
                            top='34%'
                            left='40.5%'
                            locName="Siren's Call"
-                           locDesc='Description'
+                           locDesc="Description"
                            locGov='The Council of the Sea'
                            locPop='Population: ~6,000'
                            icon={city}
@@ -201,7 +222,7 @@ const Map = () => {
                            top='22%'
                            left='77.7%'
                            locName='Redcliff'
-                           locDesc='Description'
+                           locDesc="Description"
                            locGov='The Alliance of Guardians'
                            locPop='Population: ~22,000'
                            icon={city}
@@ -210,7 +231,7 @@ const Map = () => {
                            top='17%'
                            left='83%'
                            locName='Stonehaven'
-                           locDesc='Description'
+                           locDesc="Description"
                            locGov='The Alliance of Guardians'
                            locPop='Population: ~16,500'
                            icon={city}
@@ -224,7 +245,7 @@ const Map = () => {
                            top='47%'
                            left='52%'
                            locName='Emerald Watch'
-                           locDesc='Description'
+                           locDesc="Description"
                            locGov='The Mirage Empire'
                            locPop='Population: ~100'
                            icon={town}
@@ -233,7 +254,7 @@ const Map = () => {
                            top='43%'
                            left='49%'
                            locName='Moltenhold'
-                           locDesc='Description'
+                           locDesc="Description"
                            locGov='The Brotherhood of The Forge'
                            locPop='Population: ~350'
                            icon={town}
@@ -247,7 +268,7 @@ const Map = () => {
                            top='44%'
                            left='62.5%'
                            locName='Droughtstone'
-                           locDesc='Description'
+                           locDesc="Description"
                            locGov='Unaffiliated'
                            locPop='Population: ~12'
                            icon={village}
@@ -256,7 +277,7 @@ const Map = () => {
                            top='36%'
                            left='61.5%'
                            locName='Dunewatch'
-                           locDesc='Description'
+                           locDesc="Description"
                            locGov='The Silver Ravens'
                            locPop='Population: ~63'
                            icon={village}
@@ -265,7 +286,7 @@ const Map = () => {
                            top='72%'
                            left='58%'
                            locName="Observatory #089"
-                           locDesc='Description'
+                           locDesc="Description"
                            locGov='The Eldryn Empire'
                            locPop='Population: ~20'
                            icon={village}
@@ -274,7 +295,7 @@ const Map = () => {
                            top='49%'
                            left='22%'
                            locName="Violet's Reach"
-                           locDesc='Description'
+                           locDesc="Description"
                            locGov='Unafiiliated'
                            locPop='Population: Unknown'
                            icon={village}
@@ -288,7 +309,7 @@ const Map = () => {
                            top='57%'
                            left='60.5%'
                            locName='The Sunken Spire'
-                           locDesc='Description'
+                           locDesc="Description"
                            locGov='3 Floor Dungeon'
                            locPop='⭐ - ⭐⭐⭐'
                            icon={dungeon}
@@ -297,7 +318,7 @@ const Map = () => {
                            top='47%'
                            left='52%'
                            locName='The Emerald Mine'
-                           locDesc='Description'
+                           locDesc="Description"
                            locGov='The Deep Beckons'
                            locPop='⭐'
                            icon={dungeon}
@@ -313,7 +334,7 @@ const Map = () => {
                            top='48%'
                            left='50%'
                            locName='Jade Peaks'
-                           locDesc='Description'
+                           locDesc="Description"
                            locGov=''
                            locPop=''
                            icon={mountain}
@@ -322,7 +343,7 @@ const Map = () => {
                            top='44%'
                            left='56%'
                            locName='Mt. Riverspire'
-                           locDesc='Description'
+                           locDesc="Description"
                            locGov=''
                            locPop=''
                            icon={mountain}
@@ -331,7 +352,7 @@ const Map = () => {
                            top='42%'
                            left='69%'
                            locName='Greenwall'
-                           locDesc='Description'
+                           locDesc="Description"
                            locGov=''
                            locPop=''
                            icon={mountain}
@@ -340,7 +361,7 @@ const Map = () => {
                            top='30%'
                            left='55%'
                            locName='Mirage Watch'
-                           locDesc='Description'
+                           locDesc="Description"
                            locGov=''
                            locPop=''
                            icon={mountain}
@@ -349,7 +370,7 @@ const Map = () => {
                            top='65%'
                            left='63.5%'
                            locName="Prairie's Crown"
-                           locDesc='Description'
+                           locDesc="Description"
                            locGov=''
                            locPop=''
                            icon={mountain}
@@ -358,7 +379,7 @@ const Map = () => {
                            top='48%'
                            left='64.5%'
                            locName="Highland Peak"
-                           locDesc='Description'
+                           locDesc="Description"
                            locGov=''
                            locPop=''
                            icon={mountain}
@@ -440,7 +461,7 @@ const Map = () => {
                            top='52%'
                            left='60%'
                            locName="Sandbreak"
-                           locDesc='Description'
+                           locDesc="Description"
                            locGov='The Oasis of the Sands'
                            locPop='Population ~70 - ~250'
                            icon={poi}
