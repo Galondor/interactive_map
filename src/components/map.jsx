@@ -365,6 +365,15 @@ const Map = () => {
                            locPop='⭐'
                            icon={dungeon}
                         />
+                        {/* <Marker 
+                           top='37%'
+                           left='19%'
+                           locName='The Depths'
+                           locDesc="The deepest cave system in all of Iferon. The Depths are home to some of the fiercest creatures in the world."
+                           locGov='The never-ending darkness is calling...'
+                           locPop='⭐⭐⭐⭐⭐☣️☣️☣️'
+                           icon={dungeon}
+                        /> */}
                      </>
                   )}
                   {/* Danger Markers */}
@@ -426,6 +435,15 @@ const Map = () => {
                            locPop='Height: ~3200ft'
                            icon={mountain}
                         />
+                        {/* <Marker 
+                           top='7%'
+                           left='89%'
+                           locName="Ancestral Peak"
+                           locDesc=""
+                           locGov=''
+                           locPop='Height: ~32000ft'
+                           icon={mountain}
+                        /> */}
                      </>
                   )}
                   {/* Mystery Markers */}
