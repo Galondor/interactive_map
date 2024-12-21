@@ -120,10 +120,10 @@ const Map = () => {
                            top='75%'
                            left='75%'
                            locName="Khar'goth"
-                           locDesc="The Capital city of [REDACTED], home to thousands of spawn.
+                           locDesc="The Capital city of [REDACTED], is home to thousands of spawn.
                            Khar'goth is a grim and imposing city, built from the bones of the fallen and the blood of the weak.
-                           It's architecture is twisted and macabre reflection of the Spawn's dark and twisted nature. The Great Arena, central
-                           to the city, is where daily gladiatorial combat takes place, the spawn favor strength and combat prowess above all else.
+                           Its architecture is a twisted and macabre reflection of the Spawn's dark and twisted nature. The Great Arena, central
+                           to the city, is where daily gladiatorial combat takes place, the spawn favors strength and combat prowess above all else.
                            This philosophy has been spearheaded by the Skullcleaver Clan, the current ruling clan of Khar and warden of [REDACTED]."
                            locGov="The Spawn's Replublic of Khar"
                            locPop='Population: ~12,000'
@@ -133,10 +133,10 @@ const Map = () => {
                            top='44%'
                            left='76.5%'
                            locName="Castle Deliverance"
-                           locDesc="The Castle-City in the sky. Home to the ancient Holy Order and some of the wealthiest families in all of Iferon.
-                           It's architecture is a mix of gothic and grand celestial design, with soaring spires as well as golden domes and arches.
-                           One of the most notable and oldest buildings being the Holy Sancutum, home to the Holy Order. Though now the city has forsaken it's
-                           religous roots and has become a haven for the rich and powerful. Few practice the old ways, and the Order's influence wanes with each passing year."
+                           locDesc="The Castle-City in the sky. Home to the ancient Holy Order and some of the wealthiest families in Iferon.
+                           Its architecture combines Gothic and grand celestial design, with soaring spires, golden domes, and arches.
+                           One of the most notable and oldest buildings is the Holy Sanctum, home to the Holy Order. Though now the city has forsaken its
+                           religious roots and has become a haven for the rich and powerful. Few practice the old ways, and the Order's influence wanes with each passing year."
                            locGov='The Holy Order'
                            locPop='Population: ~5,000'
                            icon={city}
@@ -146,8 +146,8 @@ const Map = () => {
                            left='65%'
                            locName="Horizon's Edge"
                            locDesc="A Beacon of civilization and the capital of Ashaka. Horizon's Edge is a testament to human ingenuity and resilience.
-                           Though most of the city's success can be attributed to the massive habor that connects it to the rest of the world.
-                           AS a result, Central Market has become a bustling hub of trade and commerce. The city's true gem however, is the College of Archaeology and History.
+                           Though most of the city's success can be attributed to the massive harbor that connects it to the rest of the world.
+                           As a result, Central Market has become a bustling hub of trade and commerce. The city's true gem, however, is the College of Archaeology and History.
                            The College has produced some of the greatest archeologists and historians in the world. The College has also unearthed countless ancient relics
                            and artifacts, which will soon populate the newly approved Museum of Antiquities."
                            locGov='The Mirage Empire'
@@ -158,12 +158,12 @@ const Map = () => {
                            top='63%'
                            left='47%'
                            locName="Eldoria"
-                           locDesc="The oldest city in the known world, Eldoria is a city of magic and tranquility. Most nations have an embassy in Eldoria due to it's
-                           strict neutrality and central location. The city was orignaly home to the first men and elves, and has since become a melting pot of cultures.
-                           The Silver Spire, the tallest building in all of Iferon, is home to the Eldryn Academy of The Arcane Art. The most prestigious school of magic in the world.
-                           Ths city is the jewel of the Eldryn Empire, and the Royal Family resides in the White Palace. Unlike most of nations in Iferon, Eldoria freely allows the practice
-                           of magic. Over the centuries, the city has grown and expanded, but not every expansion proved successful. The ruins of an entire city district still
-                           remains as a reminder of mankind's hubris. However all of Eldoria nearly takes up the entire continent of [REDACTED]."
+                           locDesc="The oldest city in the known world, Eldoria is a city of magic and tranquility. Most nations have an embassy in Eldoria due to its
+                           strict neutrality and central location. The city was originally home to the first men and elves and has since become a melting pot of cultures.
+                           The Silver Spire, the tallest building in all of Iferon, is home to the Eldryn Academy of Arcane Art. The most prestigious school of magic in the world.
+                           This city is the jewel of the Eldryn Empire, and the Royal Family resides in the White Palace. Unlike most of the nations in Iferon, Eldoria freely allows the practice
+                           of magic. Over the centuries, the city has grown and expanded, but not every expansion proved successful. The ruins of an entire city district 
+                           remain as a reminder of mankind's hubris. However, all of Eldoria nearly takes up the entire continent of [REDACTED]."
                            locGov='The Eldryn Empire'
                            locPop='Population: ~45,000'
                            icon={city}
@@ -172,12 +172,12 @@ const Map = () => {
                            top='69%'
                            left='53.5%'
                            locName="Hearthwood"
-                           locDesc="Once a mere city district of Eldoria, Hearthwood has since grown into a major city in it's own right. Though not without challenges.
+                           locDesc="Once a mere city district of Eldoria, Hearthwood has since grown into a major city in its own right. Though not without challenges.
                            Hearthwood's political landscape balances on a knife's edge, with the Royal Family of Eldoria and the Hearthwood Council constantly at odds.
                            The city is mostly comprised of the working class, and the city's economy is based on the export of Wheat and Goldleaf, a rare herb that only grows in Hearthwood soil.
-                           These exports are so plentiful that the city feeds the entire Eldryn Empire and still exports to other nations. As a result the farmers of Hearthwood are some of the 
-                           best paid and respected in all of Iferon. Some of her residents have started to call for independence from Eldoria, but the council doesn't believe the city is ready
-                           to stand on it's own without the Empire's protection and influence."
+                           These exports are so plentiful that the city feeds the entire Eldryn Empire and still exports to other nations. As a result, the farmers of Hearthwood are some of the 
+                           best-paid and respected in all of Iferon. Some of her residents have started to call for independence from Eldoria, but the council doesn't believe the city is ready
+                           to stand on its own without the Empire's protection and influence."
                            locGov='The Eldryn Empire'
                            locPop='Population: ~18,500'
                            icon={city}
@@ -192,10 +192,10 @@ const Map = () => {
                            The streets are patrolled by the Iron Guard, and the air is thick with a sense of obedience and conformity.
                            Magic is rigorously outlawed, even the most minor of spells can spell doom for the caster. The weekly hangings
                            serve as a stark reminder of the consequences of practicing magic or defying the King's Law.
-                           Despite it's oppresive atmosphere, Bastion is prosperous thanks to the sprawling mines beneath the city,
-                           paired with the city's great forges. The city is armed to the teeth, and makes a shiny zennit 
+                           Despite its oppressive atmosphere, Bastion is prosperous thanks to the sprawling mines beneath the city,
+                           paired with the city's great forges. The city is armed to the teeth and makes a shiny zenit 
                            exporting weapons and metals. Recently the miners have delved deeper and uncovered a new mineral, it's yet to be
-                           identified but it's properties are unlike anything seen before."
+                           identified but its properties are unlike anything seen before."
                            locGov='The Kingdom of Ironspire'
                            locPop='Population: ~60,000'
                            icon={city}
@@ -206,7 +206,7 @@ const Map = () => {
                            locName="Polaris Lumina"
                            locDesc="Established on the coast of [REDACTED], Polaris Lumina was founded as a sanctuary city
                            for the Luminari. It stands as a beacon of hope and acceptance. The city's architecture reflects its
-                           connection to it's snowy surroudings and magic. Buildings are crafted form pale wood and ice, their designs
+                           connection to its snowy surroundings and magic. Buildings are crafted from pale wood and ice, their designs
                            incorporating flowing lines and intricate carvings that evoke the beauty of the surrounding landscape. At the heart
                            of the city is a bustling marketplace, where fishermen and traders exchange goods and stories. Though things
                            are better now, the city still has scars from centuries of persecution."
@@ -225,7 +225,7 @@ const Map = () => {
                            and hone their skills in public squares specifically designed for sparring. The clans are almost always at odds with
                            each other, but they are all united by the Dragon King, the ruler of the city. The king is the champion of the annual
                            Crucible, and his word is Law. His clan also holds the most power and influence during his time as King.
-                           Thanks to this ever changing power dynamic, the city is always on the brink of disaster."
+                           Thanks to this ever-changing power dynamic, the city is always on the brink of disaster."
                            locGov='The Twelve Dragonlords'
                            locPop='Population: ~20,000'
                            icon={city}
@@ -234,12 +234,12 @@ const Map = () => {
                            top='34%'
                            left='40.5%'
                            locName="Siren's Call"
-                           locDesc="A costal city built in the sands of the [REDACTED] Desert. Siren's Call is a bustling port city that thrives
-                           on the edge of two worlds. It's towering walls, bleached white by the sun. The city houses the largest market in Iferon,
-                           the Grand Bazaar. A Sprawling market where exotic goods form distant lands are traded alongside the city's own.
+                           locDesc="A coastal city built in the sands of the [REDACTED] Desert. Siren's Call is a bustling port city that thrives
+                           on the edge of two worlds. Its towering walls were bleached white by the sun. The city houses the largest market in Iferon,
+                           the Grand Bazaar. A Sprawling market where exotic goods from distant lands are traded alongside the city's own.
                            Overlooking the bustling harbor stands the Citadel of the Sea, home to the Council of the Sea. The council governs the waters
-                           of Iferon. The council ensures fair trading practices and the saftey of the seas. Most merchants and sailors have set foot
-                           in Siren's Call at least once, and enjoyed the city's hospitality. Including a famous tavern, The Drunken Kraken."
+                           of Iferon. The council ensures fair trading practices and the safety of the seas. Most merchants and sailors have set foot
+                           in Siren's Call at least once and enjoyed the city's hospitality. Including a famous tavern, The Drunken Kraken."
                            locGov='The Council of the Sea'
                            locPop='Population: ~6,000'
                            icon={city}
@@ -249,9 +249,9 @@ const Map = () => {
                            left='77.7%'
                            locName='Redcliff'
                            locDesc="Perched on the edge of [REDACTED], Redcliff marks the last bastion of civilization before [REDACTED].
-                           The city is a fortess second only to Bastion, and is the HQ of the Alliance of Guardians. The city was established
+                           The city is a fortress second only to Bastion and is the HQ of the Alliance of Guardians. The city was established
                            as a base both close enough to the frontlines of [REDACTED] and far enough away to be safe. As a strategic failsafe,
-                           the alliance has planned to destroy the [REDACTED] Bridge, should the need arise and hopefuly buy time for the realm.
+                           the alliance has planned to destroy the [REDACTED] Bridge, should the need arise, and hopefully buy time for the realm.
                            The surrounding mountains provide ample resources for the city's forges and economy. The mountains also provide enough
                            protection from the north. The heart of Redcliff is the Great Hall, where the leaders of the Alliance meet and plan
                            the war effort."
@@ -264,12 +264,12 @@ const Map = () => {
                            left='83%'
                            locName='Stonehaven'
                            locDesc="Forged from steel and blood, Stonehaven is a military city built with the sole purpose of defending Iferon from
-                           [REDACTED]. The walls are specially designed to with magic to withstand the onslaught of the [REDACTED] hordes.
-                           The city is home to the Guardians, highly trained soliders clad in furs and steel. These soliders are constantly alert
-                           and ready for battle. These soliders are battle hardend from the horros they've faced. Despite the constant threat,
-                           a strong sense of camaraderie binds the city together. A family forged in the fires of war. Thank to its strategic location,
+                           [REDACTED]. The walls are specially designed with magic to withstand the onslaught of the [REDACTED] hordes.
+                           The city is home to the Guardians, highly trained soldiers clad in furs and steel. These soldiers are constantly alert
+                           and ready for battle. These soldiers are battle-hardened from the horrors they've faced. Despite the constant threat,
+                           a strong sense of camaraderie binds the city together. A family forged in the fires of war. Thanks to its strategic location,
                            Stonehaven has access to significant resources and is a key part of the war effort. Stonehaven is a city that lives and breathes
-                           defiance. A symbol of hope against the enroaching darkness."
+                           defiance. A symbol of hope against the encroaching darkness."
                            locGov='The Alliance of Guardians'
                            locPop='Population: ~16,500'
                            icon={city}
@@ -283,7 +283,8 @@ const Map = () => {
                            top='47%'
                            left='52%'
                            locName='Emerald Watch'
-                           locDesc="Description"
+                           locDesc="A quaint mining town built on the edge of the Emerald Mine. The town flourished thanks to the mine's rich veins of emeralds.
+                           Additionally, the town shares resources with Moltenhold, the nearby forge town. Over the years, the two towns have grown close."
                            locGov='The Mirage Empire'
                            locPop='Population: ~100'
                            icon={town}
@@ -292,7 +293,9 @@ const Map = () => {
                            top='43%'
                            left='49%'
                            locName='Moltenhold'
-                           locDesc="Description"
+                           locDesc="Established a hundred years into the current age, Moltenhold has become a major hub for blacksmiths.
+                           The town is famous for housing the most master blacksmiths in all of Iferon. Thanks to this and the sheer amount of
+                           Production, Moltenhold's economy flourishes."
                            locGov='The Brotherhood of The Forge'
                            locPop='Population: ~350'
                            icon={town}
@@ -306,7 +309,7 @@ const Map = () => {
                            top='44%'
                            left='62.5%'
                            locName='Droughtstone'
-                           locDesc="Description"
+                           locDesc="Home to the largest recorded chicken, as well as a near-infinite magic well. Courtesy of The Silver Ravens."
                            locGov='Unaffiliated'
                            locPop='Population: ~12'
                            icon={village}
@@ -315,7 +318,7 @@ const Map = () => {
                            top='36%'
                            left='61.5%'
                            locName='Dunewatch'
-                           locDesc="Description"
+                           locDesc="A small village, housing the rebel group: The Silver Ravens."
                            locGov='The Silver Ravens'
                            locPop='Population: ~63'
                            icon={village}
@@ -324,7 +327,7 @@ const Map = () => {
                            top='72%'
                            left='58%'
                            locName="Observatory #089"
-                           locDesc="Description"
+                           locDesc="[REDACTED]"
                            locGov='The Eldryn Empire'
                            locPop='Population: ~20'
                            icon={village}
@@ -347,7 +350,8 @@ const Map = () => {
                            top='57%'
                            left='60.5%'
                            locName='The Sunken Spire'
-                           locDesc="Description"
+                           locDesc="A sunken tower that has been reclaimed by the sand. The tower houses many treasures and dangers.
+                           No archeologist has ever returned from the tower alive."
                            locGov='3 Floor Dungeon'
                            locPop='⭐ - ⭐⭐⭐'
                            icon={dungeon}
@@ -356,7 +360,7 @@ const Map = () => {
                            top='47%'
                            left='52%'
                            locName='The Emerald Mine'
-                           locDesc="Description"
+                           locDesc="It's easy to get lost in the mine, but the rewards are worth it."
                            locGov='The Deep Beckons'
                            locPop='⭐'
                            icon={dungeon}
@@ -372,54 +376,54 @@ const Map = () => {
                            top='48%'
                            left='50%'
                            locName='Jade Peaks'
-                           locDesc="Description"
+                           locDesc=""
                            locGov=''
-                           locPop=''
+                           locPop='Height: ~3600ft'
                            icon={mountain}
                         />
                         <Marker 
                            top='44%'
                            left='56%'
                            locName='Mt. Riverspire'
-                           locDesc="Description"
+                           locDesc=""
                            locGov=''
-                           locPop=''
+                           locPop='Height: ~2200ft'
                            icon={mountain}
                         />
                         <Marker 
                            top='42%'
                            left='69%'
                            locName='Greenwall'
-                           locDesc="Description"
+                           locDesc=""
                            locGov=''
-                           locPop=''
+                           locPop='Height: ~6000ft'
                            icon={mountain}
                         />
                         <Marker 
                            top='30%'
                            left='55%'
                            locName='Mirage Watch'
-                           locDesc="Description"
+                           locDesc=""
                            locGov=''
-                           locPop=''
+                           locPop='Height: ~4000ft'
                            icon={mountain}
                         />
                         <Marker 
                            top='65%'
                            left='63.5%'
                            locName="Prairie's Crown"
-                           locDesc="Description"
+                           locDesc=""
                            locGov=''
-                           locPop=''
+                           locPop='Height: ~5000ft'
                            icon={mountain}
                         />
                         <Marker 
                            top='48%'
                            left='64.5%'
                            locName="Highland Peak"
-                           locDesc="Description"
+                           locDesc=""
                            locGov=''
-                           locPop=''
+                           locPop='Height: ~3200ft'
                            icon={mountain}
                         />
                      </>
@@ -499,7 +503,8 @@ const Map = () => {
                            top='52%'
                            left='60%'
                            locName="Sandbreak"
-                           locDesc="Description"
+                           locDesc="A massive five-story hotel haven for travelers. It's uniquely located on the border of The Burning Sands and the Sun-Kissed Savannah
+                           making it the perfect respite for weary travelers. Sandbreak is known for its luxurious accommodations and casino."
                            locGov='The Oasis of the Sands'
                            locPop='Population ~70 - ~250'
                            icon={poi}

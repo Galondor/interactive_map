@@ -193,6 +193,12 @@
     width: 16px;
     height: 16px;
   }
+  
+  .marker_desc {
+    width: 80%;
+    top: 100% !important;
+    left: 5% !important;
+  }
 
   .container {
     padding: 48px 0;
