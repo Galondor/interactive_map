@@ -532,7 +532,8 @@ const Map = () => {
                            left='20%'
                            locName="The Black Hold"
                            locDesc="Bastion's notorious underground prison. The Hold intertwines with the city's mines, making it the perfect place to force
-                           prisoners to mine for its wealth. The Hold is an appalling place, and prisoners are treated worse than the Luminari."
+                           prisoners to mine for its wealth. The Hold is an appalling place, and prisoners are treated worse than the Luminari.
+                           Division G: The deepest part of the Hold. Led by Sergeant Hives, this division is one of the most dangerous thanks to a certain Corporal."
                            locGov='The Undergound Prison'
                            locPop='Population: ~1500'
                            icon={poi}
