@@ -524,9 +524,19 @@ const Map = () => {
                            locDesc="A massive five-story hotel haven for travelers. It's uniquely located on the border of The Burning Sands and the Sun-Kissed Savannah
                            making it the perfect respite for weary travelers. Sandbreak is known for its luxurious accommodations and casino."
                            locGov='The Oasis of the Sands'
-                           locPop='Population ~70 - ~250'
+                           locPop='Population: ~70 - ~250'
                            icon={poi}
-                        />  
+                        />
+                        <Marker 
+                           top='70%'
+                           left='20%'
+                           locName="The Black Hold"
+                           locDesc="Bastion's notorious underground prison. The Hold intertwines with the city's mines, making it the perfect place to force
+                           prisoners to mine for its wealth. The Hold is an appalling place, and prisoners are treated worse than the Luminari."
+                           locGov='The Undergound Prison'
+                           locPop='Population: ~1500'
+                           icon={poi}
+                        />   
                      </>
                   )}
                   {/* Pins */}
