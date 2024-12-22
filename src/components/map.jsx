@@ -535,7 +535,7 @@ const Map = () => {
                            prisoners to mine for its wealth. The Hold is an appalling place, and prisoners are treated worse than the Luminari.
                            Division G: The deepest part of the Hold. Led by Sergeant Hives, this division is one of the most dangerous thanks to a certain Corporal."
                            locGov='The Undergound Prison'
-                           locPop='Population: ~1500'
+                           locPop='Population: ~2300'
                            icon={poi}
                         />   
                      </>
